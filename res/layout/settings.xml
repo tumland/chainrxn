@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ballcount"
+            android:textAppearance="?android:attr/textAppearanceLarge" android:paddingLeft="20dp"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="1274dp"
+            android:layout_height="wrap_content" >
+
+            <SeekBar
+                android:id="@+id/ballCountSeekBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:maxWidth="400dp"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp" android:minWidth="400dp"/>
+
+            <TextView
+                android:id="@+id/ballCountSeekBarText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/ballSpeedTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:duplicateParentState="false"
+            android:paddingLeft="20dp"
+            android:text="@string/ballspeed"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <SeekBar
+                android:id="@+id/ballSpeedSeekBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:maxWidth="400dp"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp" android:minWidth="400dp"/>
+
+            <TextView
+                android:id="@+id/ballSpeedSeekBarText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/okButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OK" />
+
+            <Button
+                android:id="@+id/cancelButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cancel" />
+
+        </LinearLayout>
+
+    </LinearLayout>

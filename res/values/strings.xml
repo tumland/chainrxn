@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, HelloAndroid!</string>
+    <string name="app_name">Chain Reaction</string>
+    <string name="button">Reset</string>
+    <string name="settings">Settings</string>
+    <string name="ballcount">Set Ball Count</string>
+    <string name="enablesound">Sound</string>
+    <string name="play">Play!</string>
+    <string name="ballspeed">Set Ball Speed</string>
+
+</resources>
